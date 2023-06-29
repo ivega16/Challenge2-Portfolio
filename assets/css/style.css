@@ -4,33 +4,71 @@
 header {
     display: flex;
     flex-wrap: wrap;
-    border: 1px red solid;
+    padding: 2%;
+    width: 100%;
+    background-color: lightblue;
 }
 
 header h1 {
     width: 50%;
-    border: 1px black solid;
+    /* border: 1px black solid; */
+    padding: 1%;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: greenyellow;
 }
 
 header nav {
     width: 50%;
-    border: 1px black solid;
+    /* border: 1px black solid; */
+    padding: 1%;
 }
 
 nav ul {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    
+
 }
 
+
+.header-image {
+    position: relative;
+
+}
 figure {
-    background-image: url(https://placehold.co/1024x400);
+    background-image: 
+    url(https://placehold.co/1024x400);
     background-size: cover;
     background-repeat: no-repeat;
     height: 200px;
+
 }
-img {
+
+.section-container img {
     width: 100%;
+}
+.header-image img{
+    /* border-radius: 4px; */
+    position: absolute;
+    bottom: 0;
+    border-right: 1px black solid;
+    /* bottom: 0; */
+    left: 0;
+    /* right: 0; */
+    /* flex-shrink: 5; */
+    /* flex-basis: fit-content; */
+    width: 20%;
+    height: 50%;
+    z-index: 1;
+    /* object-fit: cover; */
+    /* object-position: center center; */
+    /* opacity: 1;
+    transition: opacity 500ms ease 0s; */
+
+    /* bottom: 500px; */
+    /* bottom: 10; */
 }
 
 .left-side {
@@ -42,6 +80,8 @@ img {
     width: 10%;
     border-right: 2px black solid;
     text-align: right;
+    padding: 2px;
+    margin-right: 10px;
 }
 
 .left-side .section-container {
@@ -50,6 +90,8 @@ img {
     flex-wrap: wrap;
     justify-content:space-between;
 }
+
+/* includes the 4 images not the 1st main image*/
 .card{
    width: 45%;
    position: relative;
@@ -59,6 +101,8 @@ img {
     position: absolute;
     z-index: 1;
     bottom: 10%;
+    border: 2px white solid;
+    background-color: antiquewhite;
 }
 /* flex is on ul level */
 .section-container ul{
@@ -66,6 +110,7 @@ img {
     flex-direction: row;
     justify-content: space-evenly;
     width: 100%;
+    
 }
 /* first image on screen */
 #image1{
@@ -76,6 +121,34 @@ img {
     position: absolute;
     z-index: 1;
     bottom: 10%;
+    border: 2px white solid;
+    background-color: antiquewhite;
+}
+@media screen and (max-width: 530px) {
+    *{
+        display: flex;
+        flex-direction: column;
+    }
+    title {
+        display: none;
+    }
+    .header-image img{
+        flex-shrink: 3;
+    }
+    nav ul{
+        flex-direction: column;
+    }
+    .section-container ul {
+        flex-direction: column;
+    }
+    .section-container ul li {
+        padding: 3px;
+    }
+    .left-side .title {
+        border-right: none;
+        
+    }
+
 }
 
 
