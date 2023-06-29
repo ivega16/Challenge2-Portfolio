@@ -15,7 +15,8 @@ header h1 {
     padding: 1%;
     font-size: 30px;
     font-family: Arial, Helvetica, sans-serif;
-    color: greenyellow;
+    color: white;
+    -webkit-text-stroke: 1px black;
 }
 
 header nav {
@@ -53,22 +54,14 @@ figure {
     /* border-radius: 4px; */
     position: absolute;
     bottom: 0;
-    border-right: 1px black solid;
+    /* border-right: 1px black solid; */
     /* bottom: 0; */
-    left: 0;
-    /* right: 0; */
-    /* flex-shrink: 5; */
-    /* flex-basis: fit-content; */
+    left: 50%;
+    /* right: 50%; */
+ 
     width: 20%;
-    height: 50%;
+    height: auto;
     z-index: 1;
-    /* object-fit: cover; */
-    /* object-position: center center; */
-    /* opacity: 1;
-    transition: opacity 500ms ease 0s; */
-
-    /* bottom: 500px; */
-    /* bottom: 10; */
 }
 
 .left-side {
@@ -101,8 +94,8 @@ figure {
     position: absolute;
     z-index: 1;
     bottom: 10%;
-    border: 2px white solid;
-    background-color: antiquewhite;
+    color: black;
+    background-color: lightblue;
 }
 /* flex is on ul level */
 .section-container ul{
@@ -121,8 +114,14 @@ figure {
     position: absolute;
     z-index: 1;
     bottom: 10%;
-    border: 2px white solid;
-    background-color: antiquewhite;
+
+    color: black;
+    background-color: lightblue;
+}
+@media screen and (max-width: 530px){
+    header h1{
+        white-space: nowrap;
+    }
 }
 @media screen and (max-width: 530px) {
     *{
