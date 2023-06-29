@@ -103,7 +103,11 @@ figure {
     flex-direction: row;
     justify-content: space-evenly;
     width: 100%;
-    
+    /* margin: 3px; */
+}
+.section-container li{
+    padding: 2px;
+    margin: 7px;
 }
 /* first image on screen */
 #image1{
