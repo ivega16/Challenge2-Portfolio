@@ -32,23 +32,25 @@ nav ul {
     
 
 }
-
-
 .header-image {
     position: relative;
+    /* display:flex;
+    align-items: stretch; */
 
 }
 figure {
     background-image: 
-    url(https://placehold.co/1024x400);
+    url(https://placehold.co/400);
     background-size: cover;
+    object-fit: cover;
     background-repeat: no-repeat;
     height: 200px;
-
-}
-
-.section-container img {
     width: 100%;
+    object-fit: cover;
+    object-position: bottom;
+    /* height:max-content;  */
+    /* margin: auto; */
+
 }
 .header-image img{
     /* border-radius: 4px; */
@@ -58,12 +60,12 @@ figure {
     /* bottom: 0; */
     left: 50%;
     /* right: 50%; */
- 
     width: 20%;
-    height: auto;
     z-index: 1;
 }
-
+.section-container img {
+    width: 100%;
+}
 .left-side {
     display: flex;
     flex-wrap: wrap;
