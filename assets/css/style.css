@@ -6,7 +6,8 @@ header {
     flex-wrap: wrap;
     padding: 2%;
     width: 100%;
-    background-color: lightblue;
+    background-color: #61A9FF;
+    border-bottom: 5px #00617D solid;
 }
 
 header h1 {
@@ -38,30 +39,17 @@ nav ul {
     align-items: stretch; */
 
 }
-figure {
+.header-image figure {
     background-image: 
-    url(https://placehold.co/600x400);
-    background-size: cover;
-    object-fit: cover;
+    url(../images/Testbanner.png);
     background-repeat: no-repeat;
+    /* background-attachment: fixed; */
     height: 200px;
     width: 100%;
-    object-fit: cover;
-    object-position: bottom;
-    /* height:max-content;  */
-    /* margin: auto; */
+    /* position: static; */
+    background-size: cover;
+    /* background-position: top left; */
 
-}
-.header-image img{
-    /* border-radius: 4px; */
-    position: absolute;
-    bottom: 0;
-    /* border-right: 1px black solid; */
-    /* bottom: 0; */
-    left: 50%;
-    /* right: 50%; */
-    width: 20%;
-    z-index: 1;
 }
 .section-container img {
     width: 100%;
@@ -69,6 +57,7 @@ figure {
 .left-side {
     display: flex;
     flex-wrap: wrap;
+    margin-top: 10px;
 }
 
 .left-side .title {
@@ -76,7 +65,7 @@ figure {
     border-right: 2px black solid;
     text-align: right;
     padding: 2px;
-    margin-right: 10px;
+    margin-right: 15px;
 }
 
 .left-side .section-container {
@@ -124,6 +113,25 @@ figure {
     color: black;
     background-color: lightblue;
 }
+@media screen and (max-width: 750px) {
+    nav ul li {
+         
+    }
+    .left-side .title {
+        border-right: none;
+        text-align: left;
+        white-space: nowrap;
+        padding: 10px;
+                /* margin: 1px; */
+    }
+    .left-side p{
+        margin-left: 10px;
+        text-align: left;
+    }
+    #about {
+        padding-bottom: 5px;
+    }
+}
 @media screen and (max-width: 530px){
     header h1{
         white-space: nowrap;
@@ -149,13 +157,4 @@ figure {
     .section-container ul li {
         padding: 3px;
     }
-    .left-side .title {
-        border-right: none;
-        
-    }
-
 }
-
-
-
-
