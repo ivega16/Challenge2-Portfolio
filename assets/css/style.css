@@ -12,7 +12,7 @@ header {
     background-color: #61A9FF;
     border-bottom: 5px #00617D solid;
 }
-
+/* first and last name */
 header h1 {
     width: 50%;
     /* border: 1px black solid; */
@@ -22,17 +22,19 @@ header h1 {
     color: white;
     -webkit-text-stroke: 1px black;
 }
-
+/* navigation bar */
 header nav {
     width: 50%;
     /* border: 1px black solid; */
     padding-top: 2%;
     color: #54b3d6;
 }
+/* adds effects when hovering over links */
 a:hover{
     box-shadow: inset 100px 0 0 0 #404786;
     color: white;
 }
+/* nav bar list items */
 nav ul {
     display: flex;
     flex-direction: row;
@@ -40,13 +42,9 @@ nav ul {
     align-items: center;
     font-size: 18px;
 }
-.header-image {
-    position: relative;
-    /* display:flex;
-    align-items: stretch; */
-
-}
+/* figure including headshot */
 .header-image figure {
+    position: relative;
     background-image: 
     url(../images/Testbanner.png);
     background-repeat: no-repeat;
@@ -58,16 +56,18 @@ nav ul {
     /* background-position: top left; */
 
 }
+/* all images */
 .section-container img{
     width: 100%;
 
 }
+/* work section layout*/
 .left-side {
     display: flex;
     flex-wrap: wrap;
     margin-top: 10px;
 }
-
+/* about me title */
 .left-side .title {
     width: 10%;
     border-right: 2px black solid;
@@ -80,7 +80,7 @@ nav ul {
     color: #00617D;
     -webkit-text-stroke: .5px white;
 }
-
+/* includes everything on right side of title borders */
 .left-side .section-container {
     width: 88%;
     display: flex;
