@@ -17,7 +17,7 @@ N/A
 
 ## Usage
 
-Here is the link to deployed page: https://ivega16.github.io/challenge1-code-refactoring/
+Here is the link to deployed page: [(https://ivega16.github.io/Personal-Portfolio/)]
 
 ## Credits
 
@@ -31,8 +31,10 @@ Isabella Vega - https://github.com/ivega16
 ## Features
 
 Website
-![image](https://github.com/ivega16/challenge1-code-refactoring/assets/99403219/cb1c40e6-c473-49e3-87c9-f9593047f1e3)
-![image](https://github.com/ivega16/challenge1-code-refactoring/assets/99403219/40737298-7b4c-4bf8-ba59-56eed77745ac)
+<img width="1023" alt="image" src="https://github.com/ivega16/Personal-Portfolio/assets/99403219/3f75fa63-654f-4db4-b779-9101d558b74d">
+
+<img width="1021" alt="image" src="https://github.com/ivega16/Personal-Portfolio/assets/99403219/b622481f-2c0f-4798-a00a-fe0d1055993f">
+
 
 
 
