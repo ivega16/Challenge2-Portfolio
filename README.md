@@ -1,4 +1,4 @@
-# 02 Portfolio
+# 02 Personal Portfolio
 
 ## Description
 
