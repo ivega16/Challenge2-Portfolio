@@ -2,7 +2,7 @@
 
 ## Description
 
-My motivation was to refactor the web page so that it uses more concise semantics. I built this project because it represent what a jr. web developer would be introduced to when starting. This problem solves cryptic code, which can be understood by few. I learned how to consolidate different aspects involving HTML and CSS for readability and clarity.
+My motivation was to create a personal webpage that could host my portfolio. I built this project because I wanted to find a way to put my work on display in a creative way. This problem solves a scattered portfolio; the webpage consolidates my projects and makes them more accessible. I learned how to create an aplication using HTML and CSS.
 
 ## Table of Contents (Optional)
 

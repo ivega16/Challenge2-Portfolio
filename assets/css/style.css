@@ -1,6 +1,9 @@
 /* no universal selector needed - it's in reset file */
 
 /* display flex is always on parent level  */
+body{
+    background-color: #BDE7F9;
+}
 header {
     display: flex;
     flex-wrap: wrap;
@@ -14,7 +17,7 @@ header h1 {
     width: 50%;
     /* border: 1px black solid; */
     padding: 1%;
-    font-size: 30px;
+    font-size: 40px;
     font-family: Arial, Helvetica, sans-serif;
     color: white;
     -webkit-text-stroke: 1px black;
@@ -23,15 +26,19 @@ header h1 {
 header nav {
     width: 50%;
     /* border: 1px black solid; */
-    padding: 1%;
+    padding-top: 2%;
+    color: #54b3d6;
 }
-
+a:hover{
+    box-shadow: inset 100px 0 0 0 #404786;
+    color: white;
+}
 nav ul {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    
-
+    align-items: center;
+    font-size: 18px;
 }
 .header-image {
     position: relative;
@@ -51,8 +58,9 @@ nav ul {
     /* background-position: top left; */
 
 }
-.section-container img {
+.section-container img{
     width: 100%;
+
 }
 .left-side {
     display: flex;
@@ -64,8 +72,13 @@ nav ul {
     width: 10%;
     border-right: 2px black solid;
     text-align: right;
-    padding: 2px;
+    /* padding: 1px; */
     margin-right: 15px;
+    padding-right: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 23px;
+    color: #00617D;
+    -webkit-text-stroke: .5px white;
 }
 
 .left-side .section-container {
@@ -93,6 +106,7 @@ nav ul {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    /* align-items: flex-start; */
     width: 100%;
     /* margin: 3px; */
 }
@@ -114,15 +128,11 @@ nav ul {
     background-color: lightblue;
 }
 @media screen and (max-width: 750px) {
-    nav ul li {
-         
-    }
     .left-side .title {
         border-right: none;
-        text-align: left;
+        text-align: center;
         white-space: nowrap;
         padding: 10px;
-                /* margin: 1px; */
     }
     .left-side p{
         margin-left: 10px;
@@ -132,15 +142,13 @@ nav ul {
         padding-bottom: 5px;
     }
 }
-@media screen and (max-width: 530px){
-    header h1{
-        white-space: nowrap;
-    }
-}
 @media screen and (max-width: 530px) {
     *{
         display: flex;
         flex-direction: column;
+    }
+    header h1{
+        white-space: nowrap;
     }
     title {
         display: none;
@@ -156,5 +164,5 @@ nav ul {
     }
     .section-container ul li {
         padding: 3px;
-    }
+    } 
 }
