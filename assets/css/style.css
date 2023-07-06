@@ -130,7 +130,6 @@ nav ul {
     color: black;
     background-color: lightblue;
 }
-/* for responsiveness */
 @media screen and (max-width: 750px) {
     .left-side .title {
         border-right: none;
