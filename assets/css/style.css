@@ -102,6 +102,7 @@ nav ul {
     background-color: lightblue;
 }
 /* flex is on ul level */
+/* contact me list section */
 .section-container ul{
     display: flex;
     flex-direction: row;
@@ -110,15 +111,17 @@ nav ul {
     width: 100%;
     /* margin: 3px; */
 }
+/* contact me list items */
 .section-container li{
     padding: 2px;
     margin: 7px;
 }
-/* first image on screen */
+/* first image on screen regarding code refactoring project */
 #image1{
     position: relative;
     margin-top: 20px;
 }
+/* heading on code refactoring project */
 #image1 h3{
     position: absolute;
     z-index: 1;
@@ -127,6 +130,7 @@ nav ul {
     color: black;
     background-color: lightblue;
 }
+/* for responsiveness */
 @media screen and (max-width: 750px) {
     .left-side .title {
         border-right: none;
